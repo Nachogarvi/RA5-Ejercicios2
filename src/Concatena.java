@@ -14,9 +14,9 @@ public class Concatena {
         String b = " adios";
         String valor = "hola";
 
-        valor = valor + " y adiós";
+        valor = valor + " y hasta luego";
         valor += " y adiós";
-        valor = valor.concat(" y adiós");
+        valor = valor.concat(" y hasta luego");
         System.out.println(valor);
 
         valor = new StringBuilder().append(valor).append(" y Adiós").toString();
